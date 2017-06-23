@@ -31,11 +31,28 @@ nav li {
   display: inline-block;
   float: right;
   padding: 16px 10px 10px 20px;
+  color: #eee;
+  height: 100%;
+}
+
+nav li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+nav a {
+  color: #777;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #777;
 }
 
 nav li:first-child {
   float: left;
-  padding-left: 10px;
+  padding-left: 20px;
+  font-size: 24px;
 }
 
 #campgrounds {
@@ -48,14 +65,29 @@ nav li:first-child {
 
 ul {
   list-style: none;
-  margin: 20px; 
+  margin: 20px auto; 
 }
 
-li input, li textarea {
+form ul {
+  width: 40%;
+}
+
+#campground-title {
+  text-align: center;
+}
+
+form input, form textarea {
   margin: 10px;
-  padding: 4px;
-  border-radius: 2px;
+  padding: 8px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 18px;
   border: none;
+  width: 100%;
+}
+
+form textarea {
+  height: 80px;
 }
 
 .main-campground-image {

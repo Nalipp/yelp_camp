@@ -34,7 +34,7 @@ app.post('/campgrounds', function(req, res) {
     image_url: req.body.image,
     description: req.body.description
   });
-  res.redirect('/');
+  res.redirect('/campgrounds');
 });
 
 app.get('/campgrounds/new', function(req, res) {
