@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<h1>Submit a campground</h1>
+
+<form method="POST" action="/campgrounds">
+  <ul>
+    <li><input name="name" placeholder="name"></li>
+    <li><input name="image" placeholder="imgae url"></li>
+    <li><textarea name="description" placeholder="description"></textarea></li>
+
+    <li><input type="submit"></li>
+  </ul>
+<form>
+
+<% include partials/footer %>

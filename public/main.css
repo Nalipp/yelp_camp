@@ -1,4 +1,75 @@
-body {
-  background: yellow;
-  color: purple;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  color: #555;
+  background: #eee;
+  font-family: helvetica;
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin: 40px;
+}
+
+nav {
+  background: #fff;
+  margin-top: -20px;
+}
+
+nav ul {
+  height: 60px;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+  padding: 16px 10px 10px 20px;
+}
+
+nav li:first-child {
+  float: left;
+  padding-left: 10px;
+}
+
+#campgrounds {
+  width: 300px;
+}
+
+.jumbotron {
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 20px; 
+}
+
+li input, li textarea {
+  margin: 10px;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+}
+
+.main-campground-image {
+  height: 300px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+p {
+  padding: 10px;
+  font-size: 16px;
+}
+
