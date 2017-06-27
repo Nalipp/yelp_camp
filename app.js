@@ -44,7 +44,6 @@ app.get('/campgrounds/:id', function(req, res) {
           console.log(err);
           res.redirect('/');
         } else {
-          console.log(result);
           res.render('campground', {campground: result});
         }
   });

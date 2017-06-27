@@ -38,8 +38,8 @@ function seedDb() {
         if (err) return console.log(err);
         console.log('created campground seed');
         Comment.create({
-          text: 'empty text',
-          author: 'empty author'
+          text: 'Ive been here.. this place is great!',
+          author: 'Nate'
         }, (err, comment) => {
           if (err) return console.log(err);
           campground.comments.push(comment);
