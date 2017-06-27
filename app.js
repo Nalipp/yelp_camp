@@ -3,11 +3,14 @@ var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var Campground = require('./models/campground');
+var Comment = require('./models/comment');
 var seedDb = require('./seeds');
+
+mongoose.Promise = global.Promise;
 
 mongoose.connect("mongodb://localhost/yelp_camp");
 
-seedDb();
+// seedDb();
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
@@ -34,6 +37,25 @@ app.post('/campgrounds', function(req, res) {
 
 app.get('/campgrounds/new', function(req, res) {
   res.render('campground_form');
+});
+
+app.post('/campgrounds/:id/comments', (req, res) => {
+  Campground.findById(req.params.id)
+    .populate('comments')
+      .exec( (err, campground) => {
+        if (err) return console.log(err);
+        Comment.create({
+          text: req.body.text,
+          author: req.body.author
+        }, (err, newComment) => {
+          if (err) return console.log(err);
+          campground.comments.push(newComment);
+          campground.save( (err, result) => {
+            if (err) return console.log(err);
+          });
+          res.send(campground.comments);
+        });
+  });
 });
 
 app.get('/campgrounds/:id', function(req, res) {

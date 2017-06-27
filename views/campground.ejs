@@ -7,10 +7,17 @@
 </div>
 <p><%= campground.description %></p>
 
-<% campground.comments.forEach(comment => { %>
-  <p>
-    <%= comment.author %> : <em><%= comment.text %></em>
-  </p>
-<% }); %>
+  <form>
+    <input type="text" id="commentInput">
+  </form>
+  <button type="button" id="clickButton">submit</button>
+
+  <% campground.comments.reverse().forEach(comment => { %>
+    <div id="all-comments">
+      <p class="comments">
+        <%= comment.author %> : <em><%= comment.text %></em>
+      </p>
+    </div>
+  <% }); %>
 
 <% include partials/footer %>
