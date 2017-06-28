@@ -6,27 +6,27 @@ var campgroundSeeds = [
   {
     name: 'Texas',
     image_url: 'http://yotourist.com/wp-content/uploads/2011/07/camping-in-texas-and-more.jpg',
-    description: 'Many great things to do in the big sky of texas'
+    description: 'ec sem id sem molestie porttitor. Proin mattis odio eu velit fringilla, sollicitudin elementum tortor dictum. Vivamus ut nunc venenatis, fringilla odio quis, efficitur arcu. Phasellus aliquet nisi id nulla commodo, non rhoncus felis feugiat. Nullam consequat mauris velit, eget pretium liguvestibulum. Quisque non nisl nec tellus porta dictum. Vivamus ut sapien sit amet urna imperdiet convallis nec non lacus. In efficitur viverra risus, ut congue dui feugiat in. Ut et tortor sed ante alitortor at placerat. Quisque euismod tempor accumsan. Fusce neque orci, varius sit amet tincidunt in, ultrices non elit. Donec a justo augue. Vivamus at consectetur ante. Praesent porta dui et sem sodales iaculis. Phasellus mollis elem'
   },
   {
     name: 'Michigan',
     image_url: 'http://patperry.net/uploads/blog/2010/09/camping-etc-1-of-1-21.jpg',
-    description: 'Often underappreciated but many great lakes.. get it great lakes!!'
+    description: 't fringilla, sollicitudin elementum tortor dictum. Vivamus ut nunc venenatis, fringilla odio quis, efficitur arcu. Phasellus aliquet nisi id nulla commodo, non rhoncus felis feugiat. Nullam consequat mauris velit, eget pretium ligula porttitor quis. Aliquam fringilla posuere consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Integer consequat faucibus sapien et vestibulum. Quisque non nisl nec tellus p'
   },
   {
     name: 'South Dakota',
     image_url: 'http://www.campsd.org/sites/sdcoa/files/images/camping/Camping00010_1.jpg',
-    description: 'Lots of native american culture and easy to find desolation'
+    description: 'ilia Curae Integer consequat faucibus sapien et vestibulum. Quisque non nisl nec tellus porta dictum. Vivamus ut sapien sit amet urna imperdiet convallis nec non lacus. In efficitur viverra risus, ut congue dui feugiat in. Ut et tortor sed ante aliquam elementum quis a ligula. Integer vulputate vel tortor at placerat. Quisque euismod tempor accumsan. Fusce neque orci, varius sit amet tincidunt in, ultrices non elit. Donec a justo augue.'
   },
   {
     name: 'Oregon',
     image_url: 'http://visitmckenzieriver.com/oregon/wp-content/uploads/2015/06/paradise_campground.jpg',
-    description: 'Some of the most beautiful treed mountains and pristine lakes in the country'
+    description: 'nsequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Integer consequat faucibus sapien et vestibulum. Quisque non nisl nec tellus porta dictum. Vivamus ut sapien sit amet urna imperdiet convallis nec non lacus. In efficitur viverra risus, ut congue dui feugiat in. Ut et tortor sed ante aliquam elementum quis a ligula. Integer vulputate vel tortor at placerat. Quisque euismod tempor accumsan. Fusce neque orci, varius sit amet tincidunt in, ultrices non elit. Donec a justo augue. Vivamus at consectetur ante. Praesent porta dui et sem sodales iaculis. Phasellus mollis elem'
   },
   {
     name: 'Nebraska',
     image_url: 'https://s-media-cache-ak0.pinimg.com/originals/de/5a/d7/de5ad7933888f8932b264a761a55fbb4.jpg',
-    description: 'This is just where I am from, but actually has a unique beauty of its own'
+    description: 'ec sem id sem molestie porttitor. Proin mattis odio eu velit fringilla, sollicitudin elementum tortor dictum. Vivamus ut nunc venenatis, fringilla odio quis, efficitur arcu. Phasellus aliquet nisi id nulla commodo, non rhoncus felis feugiat. Nullam consequat mauris velit, eget pretium ligula porttitor quis. Aliquam fringilla posuere consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Integer consequat faucibus sapien et vestibulum. Quisque non nisl nec tellus porta dictum. Vivamus ut sapien sit amet urna imperdiet convallis nec non lacus. In efficitur viverra risus, ut congue dui feugiat in. Ut et tortor sed ante aliquam elementum quis a ligula. Integer vulputate vel tortor at placerat. Quisque euismod tempor accumsan. Fusce neque orci, varius sit amet tincidunt in, ultrices non elit. Donec a justo augue. Vivamus at consectetur ante. Praesent porta dui et sem sodales iaculis. Phasellus mollis elem'
   },
 ]
 

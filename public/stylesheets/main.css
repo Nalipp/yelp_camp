@@ -55,10 +55,6 @@ nav li:first-child {
   font-size: 24px;
 }
 
-#campgrounds {
-  width: 300px;
-}
-
 .jumbotron {
   background: #fff;
 }
@@ -105,3 +101,14 @@ p {
   font-size: 16px;
 }
 
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+}
